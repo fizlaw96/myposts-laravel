@@ -4,6 +4,8 @@ import { HashRouter, Route, Switch, Link } from "react-router-dom";
 
 import Navbar from "../components/Navbar";
 import AllPostPage from "./AllPostPage";
+import PostPage from "./PostPage";
+import CreateUpdatePage from "./CreateUpdatePage";
 
 function WelcomePage() {
     return (
@@ -14,7 +16,7 @@ function WelcomePage() {
                     <Route exact path="/">
                         <MainPage />
                     </Route>
-                    {/* <Route path="/create">
+                    <Route path="/create">
                         <CreateUpdatePage />
                     </Route>
                     <Route path="/posts/:id/edit">
@@ -22,7 +24,7 @@ function WelcomePage() {
                     </Route>
                     <Route path="/posts/:id">
                         <PostPage />
-                    </Route> */}
+                    </Route>
                     <Route path="/posts">
                         <AllPostPage />
                     </Route>
