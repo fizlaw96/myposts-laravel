@@ -2415,8 +2415,10 @@ var CreateUpdatePage = /*#__PURE__*/function (_Component) {
                 onSubmit: this.handleSubmit,
                 encType: "multipart/form-data",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-                  className: "my-2",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("input", {
+                  className: "form-group my-2",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("label", {
+                    children: "Title"
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("input", {
                     type: "text",
                     name: "title",
                     value: this.state.title,
@@ -2428,8 +2430,10 @@ var CreateUpdatePage = /*#__PURE__*/function (_Component) {
                     children: errors.title
                   })]
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-                  className: "my-2",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("input", {
+                  className: "form-group my-2",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("label", {
+                    children: "Category"
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("input", {
                     type: "text",
                     name: "category",
                     value: this.state.category,
@@ -2441,8 +2445,10 @@ var CreateUpdatePage = /*#__PURE__*/function (_Component) {
                     children: errors.category
                   })]
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-                  className: "my-2",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("textarea", {
+                  className: "form-group my-2",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("label", {
+                    children: "Content"
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("textarea", {
                     name: "content",
                     value: this.state.content,
                     onChange: this.handleInputChange,

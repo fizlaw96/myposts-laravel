@@ -121,7 +121,8 @@ class CreateUpdatePage extends Component {
                                 encType="multipart/form-data"
                             >
                                 {/* ... Input fields for title, category, file, and content ... */}
-                                <div className="my-2">
+                                <div className="form-group my-2">
+                                    <label>Title</label>
                                     <input
                                         type="text"
                                         name="title"
@@ -139,7 +140,8 @@ class CreateUpdatePage extends Component {
                                     )}
                                 </div>
 
-                                <div className="my-2">
+                                <div className="form-group my-2">
+                                <label>Category</label>
                                     <input
                                         type="text"
                                         name="category"
@@ -157,7 +159,8 @@ class CreateUpdatePage extends Component {
                                     )}
                                 </div>
 
-                                <div className="my-2">
+                                <div className="form-group my-2">
+                                    <label>Content</label>
                                     <textarea
                                         name="content"
                                         value={this.state.content}
